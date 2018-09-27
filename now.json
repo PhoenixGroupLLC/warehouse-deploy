@@ -1,0 +1,16 @@
+{
+    "type": "docker",
+    "public": true,
+    "env": {
+        "DB_IP": "@db-ip",
+        "DB_PORT": "@db-port",
+        "DB_USER": "@db-user",
+        "DB_PWD": "@db-pwd",
+        "DB_SCHEMA": "@db-schema",
+        "DB_CA": "@db-ca",
+        "DB_CERT": "@db-cert",
+        "DB_KEY": "@db-key",
+        "STORAGE_JSON": "@storage_json",
+        "STORAGE_PROJECT_ID": "@storage_project_id"
+    }
+}
